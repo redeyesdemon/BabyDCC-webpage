@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta name="Description" content="Information architecture, Web Design, Web Standards." />
+<meta name="Keywords" content="your, keywords" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Erwin Aligam - ealigam@gmail.com" />
+<meta name="Robots" content="index,follow" />
+
+<link rel="stylesheet" href="images/Envision.css" type="text/css" />
+<script src="images/scripts.js"></script>
+<script src="js/jquery-1.5.js"></script>
+<script src="js/jquery-ui-1.8.9.custom.min.js"></script>
+<link rel="stylesheet" href="css/redmond/jquery-ui-1.8.9.custom.css" type="text/css" />
+
+<title>Baby DCC - 2011</title>
+	
+</head>
+
+<body>
+<!-- wrap starts here -->
+<div id="wrap">
+		
+		<!--header -->
+		<div id="header">			
+				
+			<h1 id="logo-text"><a href="index.html">Baby dcc (Alpha 1)</a></h1>		
+			<p id="slogan">Torneo 2011</p>		
+						
+		</div>
+		
+		<!-- menu -->	
+		<div  id="menu">
+			<ul>
+				<li id="current"><a href="index.html">Principal</a></li>
+				<li><a href="reg.html">Registro de equipos</a></li>
+				<li><a href="index2.html">Equipos</a></li>
+				<li><a href="index2.html">Posiciones</a></li>
+				<li><a href="index2.html">Fixture</a></li>
+				<li class="last"><a href="index.html">Acerca de</a></li>		
+			</ul>
+		</div>
+			
+		<!-- content-wrap starts here -->
+		<!-- Menu derecho -->
+		<div id="content-wrap">
+				
+			<div id="sidebar">
+				<h3>Login</h3>
+				<div class="left-box">
+					<form class="searchform">
+					<label>Usuario</label>
+					<input type="text" /><br  />
+					<label>Contraseña</label>
+					<input ype="password" /><br  />
+					<input class="button" type="submit" value="Ingresar" />
+					</form>
+				</div>
+			
+				<h3>Links</h3>
+				<ul class="sidemenu">
+					<li><a href="http://www.cadcc.cl/"><strong>CaDCC.cl</strong></a></li>
+					<li><a href="http://www.u-cursos.cl/"><strong>U-Cursos</strong></a></li>
+				</ul>						
+								
+			</div>
+			
+			<!-- Menu derecho finaliza aqui -->
+			
+			<!-- Contenido principal -->
+			
+			<div id="main">
+				
+				<a name="profile"></a>
+				<h2>Editar mi perfil</h2>
+				<form action="" method="post" enctype="multipart/form-data">
+					<div align="center">
+						<table>
+							<tr>
+								<th class="first" colspan="2" style="text-align:center;">Datos de usuario</th>
+							</tr>
+							<tr class="row-a">
+								<td><label>Nombre</label></td>
+								<td><input type="text" id="new_nam" name="new_nam" disabled="disabled" value="algo" /></td>
+							</tr>
+							<tr class="row-b">
+								<td><label>RUT</label></td>
+								<td><input type="number" id="new_rut" name="new_rut" disabled="disabled" value="1234" /></td>
+							</tr>
+							<tr class="row-a">
+								<td><label>Matr&iacute;cula</label></td>
+								<td><input type="number" id="new_mat" name="new_mat" disabled="disabled" value="12345" /></td>
+							</tr>
+							<tr class="row-b">
+								<td><label>Email</label></td>
+								<td><input type="email" id="new_ema" name="new_ema" value="holi@holi.com" /></td>
+							</tr>
+							<tr class="row-a">
+								<td><label>Tel&eacute;fono</label></td>
+								<td><input type="number" id="new_tel" name="new_tel" value="527726" /></td>
+							</tr>
+							<tr class="row-b">
+								<td><label>Apodo</label></td>
+								<td><input type="text" id="new_apo" name="new_apo" value="awn" /></td>
+							</tr>
+							<tr class="row-a">
+								<td><label>Departamento</label></td>
+								<td><input type="text" id="new_dep" name="new_dep" disabled="disabled" value="DCC" /></td>
+							</tr>
+						</table>
+						<br />
+						<table>
+							<tr>
+								<th class="first" colspan="2" style="text-align:center;">Cambiar avatar</th>
+							</tr>
+							<tr class="row-a">
+								<td colspan="2"><span>Para cambiar tu avatar, haz clic <a href="<?php echo base_url();?>index.php/babydcc/avatar/">aqu&iacute;</a></span></td>
+							</tr>
+						</table>
+						<br />
+						<table>
+							<tr>
+								<th class="first" colspan="2" style="text-align:center;">Cambiar contrase&ntilde;a</th>
+							</tr>
+							<tr class="row-a">
+								<td><label>Contrase&ntilde;a nueva</label></td>
+								<td><input type="password" id="new_pass" name="new_pass" /></td>
+							</tr>
+							<tr class="row-b">
+								<td><label>Repita Contrase&ntilde;a nueva</label></td>
+								<td><input type="password" id="new_pass2" name="new_pass2" /></td>
+							</tr>
+							<tr class="row-a">
+								<td colspan="2">
+									<span>Si no deseas cambiar tu contrase&ntilde;a, deja esto en blanco </span>
+								</td>
+							</tr>
+						</table>
+						<br />
+						<table>
+							<tr class="row-a">
+								<td colspan="2">
+									<span>Para confirmar los cambios, debes ingresar tu contrase&ntilde;a actual</span>
+								</td>
+							</tr>
+							<tr class="row-b" align="center">
+								<td><label>Ingrese contrase&ntilde;a actual*</label></td>
+								<td><input type="password" id="usu_pass" name="usu_pass"  /></td>
+							</tr>
+							<tr class="row-a">
+								<td colspan="2" align="center">
+									<input type="submit" value="Modificar mis datos" class="button" />
+									&nbsp;
+									<input type="button" value="Cancelar" class="button" />
+								</td>
+							</tr>
+						</table>
+					</div>
+				</form>
+			</div>
+		
+			<!-- Contenido finaliza aquí -->
+		
+		<!-- content-wrap ends here -->	
+		</div>
+					
+		<!--footer starts here-->
+		<div id="footer">
+			
+			<p>
+			&copy; 2011 <strong>CADCC</strong> | 
+			Design by: <a href="http://www.styleshout.com/">styleshout</a> | 
+			Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> | 
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>	
+		</div>	
+
+<!-- wrap ends here -->
+</div>
+
+</body>
+</html>
